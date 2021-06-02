@@ -443,7 +443,7 @@ void InformUnclosedLoops(deque<Instruccion> &bucles, int &errores) {
 	}
 }
 
-static bool SirveParaReferencia(string &s) {
+bool SirveParaReferencia(string &s) {
 	int p=0, l=s.size(), parentesis=0;
 	bool in_name=true; // si estamos en la primer parte (nombre) o segunda (indices si es un arreglo)
 	while (p<l) {

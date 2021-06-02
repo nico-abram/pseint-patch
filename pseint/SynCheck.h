@@ -5,6 +5,7 @@ using namespace std;
 
 int SynCheck();
 int ParseInspection(string &exp);
+bool SirveParaReferencia(string &s);
 
 #endif
 
